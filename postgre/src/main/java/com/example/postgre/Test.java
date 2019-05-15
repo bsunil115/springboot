@@ -34,5 +34,9 @@ public class Test {
 		this.name = name;
 	}
 	
+	public  String findUser() {
+		return name;
+		
+	}
 	
 }

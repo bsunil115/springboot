@@ -25,7 +25,8 @@ public class TestController {
 	
 	@GetMapping("/test/")
 	public List<Test> getAllData() {
-		return  (List<Test>) repo.findAll();
+		return repo.findUser(null);
+//		return  (List<Test>) repo.findAll();
 	}
 	
 	
